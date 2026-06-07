@@ -14113,6 +14113,11 @@ body:has(.doc-version-panel:not(.hidden)) .hamburger-btn {
   background: var(--border);
   border-color: var(--red);
 }
+.admin-ep-actions {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
 .admin-tools-select {
   padding: 3px 6px;
   border: 1px solid var(--border);
