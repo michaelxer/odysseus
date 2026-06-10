@@ -1178,11 +1178,7 @@ function initializeEventListeners() {
           if (resOverflow) resOverflow.style.display = 'none';
         }
 
-        // Hide image generation options
-        if (!p.can_generate_images) {
-          const imgToggle = document.getElementById('set-imgEnabledToggle');
-          if (imgToggle) { imgToggle.checked = false; imgToggle.disabled = true; }
-        }
+
       }
     })
     .catch(() => {});
